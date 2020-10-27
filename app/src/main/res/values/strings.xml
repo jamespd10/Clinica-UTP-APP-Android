@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Clinica UTP</string>
+    <string name="username">Cédula</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_in">Ingresar</string>
+    <string name="register">Register</string>
+    <string name="full_name">Nombre Completo</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="already_having_account">Already Having an Account?</string>
+    <string name="log_in">Log In</string>
+    <string name="not_having_account">Not Having an Account?</string>
+    <string name="sign_up">Ingresar</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="C_cita">Cancelar Cita</string>
+    <string name="title_activity_botton_navigation">BottonNavigationActivity</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Agregar Cita</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="pushNotificaciones">Ok</string>
+    <string name="txtHora">Hora:\t\t</string>
+    <string name="agregarCita">Agregar Cita</string>
+    <string name="etMotivo">Motivo de la Cita</string>
+    <string name="etDescripcion">Descripcion Corta</string>
+    <string name="txtHoras">12:00</string>
+    <string name="txtBHoras">Seleccionar Hora</string>
+    <string name="txtBFecha">Seleccionar Fecha</string>
+    <string name="txtFechas">2020/12/12</string>
+    <string name="txtFecha">Fecha:\t\t</string>
+    <string name="txtNombre">Nombre:\t\t</string>
+    <string name="txtDatosPaciente">Datos del Paciente</string>
+</resources>

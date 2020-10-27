@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/utpentradaoscura"
+    android:fitsSystemWindows="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        >
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo_utp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60px"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_below="@+id/imagen"
+            android:id="@+id/text1"
+            android:text="Clínica UTP" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60px"
+            android:textColor="#fff"
+            android:layout_marginBottom="24dp"
+            android:textAlignment="center"
+            android:id="@+id/text2"
+            android:layout_below="@+id/text1"
+            android:text="Bienvenido al Sistema de la Clínica de la Universidad Tecnológica de Panamá" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Linearusuario"
+            android:layout_below="@+id/text2"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/user">
+            </ImageView>
+            <EditText
+                android:id="@+id/etLoginUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Usuario"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linearusuario"
+            android:layout_marginTop="20dp"
+            android:id="@+id/LinearContra"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/clock">
+            </ImageView>
+            <EditText
+                android:id="@+id/etLoginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:textColor="#fff"
+                android:textColorHint="#fff"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/LinearContra"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/btnLogin"
+            android:text="Ingresar"
+            android:background="@drawable/btnpersonalizado"
+            android:textColor="@drawable/txt_btn" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLogin"
+            android:textColor="#fff"
+            android:id="@+id/tvToken"/>
+
+    </RelativeLayout>
+</ScrollView>
